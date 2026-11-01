@@ -3,41 +3,54 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Unite Property Division - compliance film</title>
+<title>Unite Property Division - two films</title>
 <style>
   :root { --navy:#14213d; --red:#e31e24; --ink:#eef2f8; --muted:#9fb0c9; }
   * { box-sizing: border-box; }
   body { margin:0; background:var(--navy); color:var(--ink);
          font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
-  main { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
-  .bar { height: 6px; background: var(--red); border-radius: 3px; width: 96px; margin-bottom: 22px; }
-  h1 { font-size: clamp(22px, 3vw, 32px); margin: 0 0 6px; letter-spacing: -0.01em; }
-  p.lede { color: var(--muted); margin: 0 0 26px; font-size: 15px; }
+  main { max-width: 1080px; margin: 0 auto; padding: 40px 20px 72px; }
+  .bar { height: 6px; background: var(--red); border-radius: 3px; width: 96px; margin-bottom: 24px; }
+  h1 { font-size: clamp(24px, 3vw, 34px); margin: 0 0 8px; letter-spacing: -0.01em; }
+  p.lede { color: var(--muted); margin: 0 0 12px; font-size: 15px; max-width: 62ch; line-height: 1.6; }
+  section { margin-top: 46px; }
+  h2 { font-size: 20px; margin: 0 0 4px; letter-spacing: 0.02em; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px 18px; margin:0 0 14px; color:var(--muted);
+          font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
   video { width: 100%; border-radius: 12px; background:#000; display:block;
           box-shadow: 0 24px 60px rgba(0,0,0,.45); }
-  .meta { display:flex; flex-wrap:wrap; gap:10px 22px; margin:18px 0 0; color:var(--muted);
-          font-size:13px; letter-spacing:.02em; text-transform:uppercase; }
-  .dl { display:inline-flex; align-items:center; gap:10px; margin-top:26px; padding:14px 20px;
+  .dl { display:inline-flex; align-items:center; gap:10px; margin-top:16px; padding:12px 18px;
         border-radius:999px; background:var(--red); color:#fff; text-decoration:none;
-        font-weight:700; font-size:15px; }
-  .note { margin-top:30px; padding-top:18px; border-top:1px solid rgba(255,255,255,.12);
-          color:var(--muted); font-size:13px; line-height:1.6; max-width:70ch; }
-  .alt { margin-top:14px; font-size:13px; color:var(--muted); }
-  a { color:#fff; }
+        font-weight:700; font-size:14px; }
+  .note { margin-top:40px; padding-top:18px; border-top:1px solid rgba(255,255,255,.12);
+          color:var(--muted); font-size:13px; line-height:1.6; max-width:72ch; }
 </style>
 </head>
 <body>
 <main>
   <div class="bar"></div>
-  <h1>Unite Property Division - 20 sites, one map</h1>
-  <p class="lede">Twenty-one seconds. The estate on one map, the numbers that matter,
-     and the record behind them.</p>
-  <video src="film.mp4?v=6" controls playsinline preload="metadata"></video>
-  <div class="meta"><span>21 seconds</span><span>1920 x 1080</span><span>Captions burned in</span></div>
-  <a class="dl" href="film.mp4?v=6" download>Download the film</a>
+  <h1>Unite Property Division</h1>
+  <p class="lede">Two cuts of the same story. One is built for a room and a screen, the other for
+     someone who wants to see the product working.</p>
+
+  <section>
+    <h2>One map - the short film</h2>
+    <div class="meta"><span>21 seconds</span><span>Type and numbers</span><span>No screen recordings</span></div>
+    <video src="film-a.mp4?v=7" controls playsinline preload="metadata"></video>
+    <a class="dl" href="film-a.mp4?v=7" download>Download - the short film</a>
+  </section>
+
+  <section>
+    <h2>The walkthrough</h2>
+    <div class="meta"><span>23 seconds</span><span>Real screens</span><span>Captions burned in</span></div>
+    <video src="film-b.mp4?v=7" controls playsinline preload="metadata"></video>
+    <a class="dl" href="film-b.mp4?v=7" download>Download - the walkthrough</a>
+  </section>
+
   <div class="note">
-    Footage is the live app at unite.elleis.uk, captured 1 November 2026. Narration is a
-    machine voice, the music bed is machine-made, the screens are real.
+    Footage and figures come from the live app at unite.elleis.uk, captured 1 November 2026:
+    twenty sites, two critical, six overdue, eight due, four compliant. Narration is a machine voice
+    and the music bed is machine-made. The screens, the numbers and the report are real.
   </div>
 </main>
 </body>

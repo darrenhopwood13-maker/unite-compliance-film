@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Unite Property Division - compliance film</title>
+<style>
+  :root { --navy:#14213d; --red:#e31e24; --ink:#eef2f8; --muted:#9fb0c9; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--navy); color:var(--ink);
+         font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 1080px; margin: 0 auto; padding: 32px 20px 64px; }
+  .bar { height: 6px; background: var(--red); border-radius: 3px; width: 96px; margin-bottom: 22px; }
+  h1 { font-size: clamp(22px, 3vw, 32px); margin: 0 0 6px; letter-spacing: -0.01em; }
+  p.lede { color: var(--muted); margin: 0 0 26px; font-size: 15px; }
+  video { width: 100%; border-radius: 12px; background:#000; display:block;
+          box-shadow: 0 24px 60px rgba(0,0,0,.45); }
+  .meta { display:flex; flex-wrap:wrap; gap:10px 22px; margin:18px 0 0; color:var(--muted);
+          font-size:13px; letter-spacing:.02em; text-transform:uppercase; }
+  .dl { display:inline-flex; align-items:center; gap:10px; margin-top:26px; padding:14px 20px;
+        border-radius:999px; background:var(--red); color:#fff; text-decoration:none;
+        font-weight:700; font-size:15px; }
+  .note { margin-top:30px; padding-top:18px; border-top:1px solid rgba(255,255,255,.12);
+          color:var(--muted); font-size:13px; line-height:1.6; max-width:70ch; }
+  .alt { margin-top:14px; font-size:13px; color:var(--muted); }
+  a { color:#fff; }
+</style>
+</head>
+<body>
+<main>
+  <div class="bar"></div>
+  <h1>Unite Property Division - compliance on one map</h1>
+  <p class="lede">A 51 second walk through the live Unite app: the estate map, the site register,
+     the field app and a real signed report.</p>
+  <video src="unite-promo-v2.mp4" controls playsinline preload="metadata"></video>
+  <div class="meta"><span>51 seconds</span><span>1920 x 1080</span><span>Captions burned in</span></div>
+  <a class="dl" href="unite-promo-v2.mp4" download>Download the film</a>
+  <p class="alt">Earlier cut, if you want to compare: <a href="unite-promo-v1.mp4">v1 - dashboard-led, male narration</a>.</p>
+  <div class="note">
+    Footage is the live app at unite.elleis.uk, captured 1 November 2026. Narration is a
+    machine voice, the music bed is machine-made, the screens are real.
+  </div>
+</main>
+</body>
+</html>

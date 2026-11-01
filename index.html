@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Unite Property Division - two films</title>
+<title>Unite Property Division - the film</title>
 <style>
   :root { --navy:#14213d; --red:#e31e24; --ink:#eef2f8; --muted:#9fb0c9; }
   * { box-sizing: border-box; }
@@ -22,6 +22,8 @@
   .dl { display:inline-flex; align-items:center; gap:10px; margin-top:16px; padding:12px 18px;
         border-radius:999px; background:var(--red); color:#fff; text-decoration:none;
         font-weight:700; font-size:14px; }
+  .alt { margin-top:34px; padding-top:14px; border-top:1px solid rgba(255,255,255,.12);
+         color:var(--muted); font-size:13px; letter-spacing:.06em; text-transform:uppercase; }
   .note { margin-top:40px; padding-top:18px; border-top:1px solid rgba(255,255,255,.12);
           color:var(--muted); font-size:13px; line-height:1.6; max-width:72ch; }
 </style>
@@ -30,27 +32,35 @@
 <main>
   <div class="bar"></div>
   <h1>Unite Property Division</h1>
-  <p class="lede">Two cuts of the same story. One is built for a room and a screen, the other for
-     someone who wants to see the product working.</p>
+  <p class="lede">The film as it appears on unite.elleis.uk - the same file, unchanged.</p>
 
   <section>
-    <h2>One map - the short film</h2>
-    <div class="meta"><span>21 seconds</span><span>Type and numbers</span><span>No screen recordings</span></div>
-    <video src="film-a.mp4?v=8" controls playsinline preload="metadata"></video>
-    <a class="dl" href="film-a.mp4?v=8" download>Download - the short film</a>
+    <h2>The film</h2>
+    <div class="meta"><span>59 seconds</span><span>Live on the site</span><span>1920 x 1080</span></div>
+    <video src="film-original.mp4?v=9" controls playsinline preload="metadata"></video>
+    <a class="dl" href="film-original.mp4?v=9" download>Download the film</a>
+  </section>
+
+  <div class="alt">Alternates - built today, not published anywhere</div>
+
+  <section>
+    <h2>One map - 23 seconds, type and numbers</h2>
+    <div class="meta"><span>No screen recordings</span><span>Verity</span></div>
+    <video src="film-a.mp4?v=9" controls playsinline preload="metadata"></video>
+    <a class="dl" href="film-a.mp4?v=9" download>Download</a>
   </section>
 
   <section>
-    <h2>The walkthrough</h2>
-    <div class="meta"><span>23 seconds</span><span>Real screens</span><span>Captions burned in</span></div>
-    <video src="film-b.mp4?v=8" controls playsinline preload="metadata"></video>
-    <a class="dl" href="film-b.mp4?v=8" download>Download - the walkthrough</a>
+    <h2>The walkthrough - 23 seconds, real screens</h2>
+    <div class="meta"><span>Captions burned in</span><span>Verity</span></div>
+    <video src="film-b.mp4?v=9" controls playsinline preload="metadata"></video>
+    <a class="dl" href="film-b.mp4?v=9" download>Download</a>
   </section>
 
   <div class="note">
-    Footage and figures come from the live app at unite.elleis.uk, captured 1 November 2026:
-    twenty sites, two critical, six overdue, eight due, four compliant. Narration is a machine voice
-    and the music bed is machine-made. The screens, the numbers and the report are real.
+    Figures in the alternates come from the live app: twenty sites, two critical, six overdue,
+    eight due, four compliant. Their narration is a machine voice and their music bed is
+    machine-made; the screens and numbers are real.
   </div>
 </main>
 </body>
